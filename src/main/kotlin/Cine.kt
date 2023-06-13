@@ -36,7 +36,7 @@ class Cine {
         }
     }
 
-    fun leerAsientos(rutaArchivo: String) {
+    fun actuaizarCine(rutaArchivo: String) {
         /*  A la hora de leer un archivo .txt. Podemos hacerlo de diversas formas.
             Lo podemos hacer usando la clase FileWriter, la cual tiene métodos para leer carácter por carácter.
             En este caso, como se nos indica que la información contenida en el .txt va a estar en líneas
@@ -83,7 +83,7 @@ class Cine {
         }
     }
 
-    fun escribirAsientos() {
+    fun guardarVentas() {
         var archivo: File? = null
         var fw: FileWriter? = null
         var bw: BufferedWriter? = null

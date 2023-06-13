@@ -44,7 +44,7 @@ class GestionCine(cine: Cine) {
 
                     4 -> {
                         print("SALIR\n")
-                        cine.escribirAsientos()
+                        cine.guardarVentas()
                     }
 
                     else -> System.err.print("OPCION NO SOPORTADA.\n")
