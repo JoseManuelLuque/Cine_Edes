@@ -18,7 +18,7 @@ class GestionCine(cine: Cine) {
         no hace falta inicializar un objeto para llamar al método
          */
         var opcionEscogida = 0
-        cine.leerAsientos("C:\\Users\\josem\\Escritorio\\entradasVendidas.txt")
+        cine.actualizarCine("C:\\Users\\josem\\Escritorio\\entradasVendidas.txt")
         do {
             try {
                 opcionEscogida = menuPrincipal()
